@@ -59,7 +59,7 @@ def fetch_and_send_random_song():
         send_telegram_message(error_message)
         print(error_message)
 
-schedule.every().day.at("07:45").do(fetch_and_send_random_song)
+schedule.every().day.at("07:35").do(fetch_and_send_random_song)
 
 print("GG is running...")
 
